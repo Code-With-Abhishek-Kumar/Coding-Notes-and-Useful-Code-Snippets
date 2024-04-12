@@ -1,0 +1,17 @@
+{
+  "name": "get",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "start":"nodemon ./script.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}

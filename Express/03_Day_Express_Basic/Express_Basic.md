@@ -31,7 +31,7 @@
 
 - Jaise frontend ` franework`,` tools `, `server side modules` aur bhi bahut kuch.
 - Isse fronted developer ho ya Server-Side programming dono ko various development environment mein flexibility milti hain.
-- 
+  
 
 ### Npm install 
 
