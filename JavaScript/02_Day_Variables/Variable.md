@@ -1,3 +1,6 @@
+
+
+
 # JavaScript Variables
 
 
@@ -14,24 +17,55 @@
 
 1. Using `var`:
 
--  var keyword ka use hota hai variables ko declare karne ke liye. Jab aap variables ko var keyword se declare karte hai, to Wo function scoped hote hai, jise mean karta hai ki unhe sirf unki declare kiye gaye function mein access kiya jata hai. Agar aap variables ko var keyword se bahar ke bina function mein declare karte hai, to unhe global variables ban jaate hai.
+-  `var` keyword ka use hota hai variables ko declare karne ke liye. Jab aap variables ko var keyword se declare karte hai, to Wo function scoped hote hai, jise mean karta hai ki unhe sirf unki declare kiye gaye function mein access kiya jata hai. Agar aap variables ko var keyword se bahar ke bina function mein declare karte hai, to unhe global variables ban jaate hai.
 
+- `Var` statement JavaScript mein ek keyword hai jo variables ko declare karne ke liye istemal hota hai. Ye function-scoped ya globally-scoped variables ko declare kar sakta hai. Function-scoped variables ka matlab hai ki var statement se declare kiya gaya variable usi function ke andar hi accessible hoga, jabki globally-scoped variables ko kisi bhi function ke bahar bhi access kiya ja sakta hai.
 
-#### Yahan ek example hai var keyword ka use karke variables ko declare karna:
-
+#### Yahan ek example hai 
 
 
 ```JavaScript
 
-function greet() {
-  var message = "Hello, world!";
-  console.log(message);
+function example() {
+    var x = 10;
+    console.log(x); // Output: 10
 }
 
-greet(); // Output: Hello, world!
-console.log(message); // Error: message is not defined
+console.log(x); // Error: x is not defined
+
 
 ```
+
+
+
+- Is example mein, var x = 10; statement se x variable ko function example() ke andar declare kiya gaya hai, isliye yeh function-scoped hai. Is variable ko function ke bahar access nahi kiya ja sakta hai, jaise ki console.log(x); statement mein kiya gaya hai.
+
+- Var statement ko use karke variables ko initialize karna optional hota hai. Agar variable ko initialize nahi kiya gaya hai, toh uski default value undefined hoti hai. Example:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 To use this function, you can call it by its name, followed by the parameters in parentheses:
 
@@ -43,23 +77,6 @@ console.log(sum); // Output: 15
 ````
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Declare a variable
 
 - To declare a variable in JavaScript, you can use one of the following keywords: `var`, `let`, or `const`.
@@ -67,9 +84,25 @@ console.log(sum); // Output: 15
 
 
 
+```JavaScript
+  $ var VariableName;
+```
 
 
 
+
+
+### When to Use var, let, or const?
+
+1. Always declare variables
+
+2. Always use const if the value should not be changed
+
+3. Always use const if the type should not be changed (Arrays and Objects)
+
+4. Only use let if you can't use const
+
+5. Only use var if you MUST support old browsers.
 
 
 ## Hoisting in JavaScript: A Detailed Explanation
