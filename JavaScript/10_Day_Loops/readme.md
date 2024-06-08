@@ -117,6 +117,54 @@ while (i < 5) {
 
 ### for-in Loop
 
+
+- "The for-in loop in JavaScript is used to go through all the properties of an object. It's helpful when you want to find keys inside an object easily, including those that it inherits from its parent objects."
+
+- "The reason we use for-in loop in JavaScript is because it helps us extract keys from an object in a simple way, making it easier for everyone to understand."
+
+
+
+- For-in loop ka upyog JavaScript mein object ke saare properties par loop lagane ke liye hota hai. Yeh loop har ek property ko access karne mein madad karta hai, chahe vo object ke khud ke ho ya prototype chain se inherited ho. Iska upyog karke hum object ke properties ko iterate kar sakte hain aur unka istemal kisi specific kaam mein kar sakte hain, jaise ki debugging, dynamic data handling, ya phir object ke properties ka examination.
+
+```javascript
+for (variable in object) {
+    // code block to be executed
+}
+
+```
+
+`Example`
+```javascript
+const person = {
+    name: "John",
+    age: 30,
+    profession: "Developer"
+};
+
+console.log("Properties of the person object:");
+
+for (let key in person) {
+    console.log(key + ": " + person[key]);
+}
+
+
+```
+
+`In this example:`
+
+- We have an object named person with properties like name, age, and profession.
+
+- We use a for-in loop to iterate over each property of the person object.
+
+- Inside the loop, the key variable holds the name of each property.
+
+- We access the value of each property using bracket notation (person[key]).
+
+- Finally, we log both the property name (key) and its corresponding value (person[key]) to the console.
+
 ### for…of Loop
+
+
+
 
 ### do…while Loop
