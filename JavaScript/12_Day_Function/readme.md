@@ -23,6 +23,7 @@ function functionName(parameters) {
 function greet(name) {
     console.log("Hello, " + name + "!");
 } 
+
 ````
 
 - In this example, greet("John") is called before function greet(name), but it won't cause an error because the function declaration is hoisted to the top.

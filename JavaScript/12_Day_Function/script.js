@@ -1,4 +1,7 @@
 // Named function declaration
+
+// Function Statement
+
 function add(a, b) {
     return a + b;
   }
@@ -7,6 +10,7 @@ function add(a, b) {
 
 
   // Function expression
+
 var multiply = function(x, y) {
     return x * y;
   };
