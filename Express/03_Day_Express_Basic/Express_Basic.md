@@ -92,3 +92,9 @@ app.listen(3000)
 
 
 - `app.listen(PORT)` : ye server ko specfic port number par incoming request ko listen krne help kr ta hain.
+
+
+
+
+
+# req or res
