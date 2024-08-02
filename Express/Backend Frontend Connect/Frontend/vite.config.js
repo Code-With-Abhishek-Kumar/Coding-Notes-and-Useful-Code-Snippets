@@ -10,7 +10,7 @@ export default defineConfig({
       '/api': 'http://localhost:3000',
       // with options: http://localhost:5173/api/bar-> http://jsonplaceholder.typicode.com/bar
      
-    }
-  }
+    },
+  },
   plugins: [react()],
 })
