@@ -3,4 +3,5 @@
 *.log
 
 
-*node_modules/*
+# Ignore all node_modules directories in the project
+**/node_modules/
