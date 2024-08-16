@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Multer File Upload</title>
+</head>
+<body>
+    <main>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+       
+            <h1>File Upload</h1>
+            <input type="file"  id="file_upload" name="uploaded_file"  style="display: none;">
+            <label for="file_upload">
+                <ion-icon name="cloud-upload-outline"></ion-icon>
+            </label>
+
+            <button>Upload</button>
+        </form>
+    </main>
+</body>
+</html>

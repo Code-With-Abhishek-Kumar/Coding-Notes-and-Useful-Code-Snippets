@@ -61,18 +61,95 @@ C ek general-purpose programming language hai jo 1970s ke early years mein Denni
 ## History of C
 
 - **BCPL (Basic Combined Programming Language)**:
-  - **Vikas**: 
-  
-  
-    - BCPL ko Martin Richards ne 1966 mein develop kiya tha. Yeh ek simple aur flexible programming language thi jo system programming ke liye design ki gayi thi. Iska primary goal tha system-level programming aur compiler writing ko asaan banana. BCPL ne programming ko simplify kiya aur system software development ke liye ek foundational language provide ki, jisse zyada efficient aur manageable code likha ja sake.
 
 
-    -  Developed by Martin Richards in 1966, it was designed to simplify system-level programming.
+
+  -  BCPL ko Martin Richards ne 1966 mein develop kiya tha. Yeh ek simple aur flexible programming language thi jo system programming ke liye design ki gayi thi. Iska primary goal tha system-level programming aur compiler writing ko asaan banana.
+   
+
+
+
+
+
+  -  BCPL ne programming ko simplify kiya aur system software development ke liye ek foundational language provide ki, jisse zyada efficient aur manageable code likha ja sake.
+
+
+  -  Developed by Martin Richards in 1966, it was designed to simplify system-level programming.
+   
+
+  `=> **Limitation and why we need B**:`
+
+  - BCPL (Basic Combined programming Language ) mein limitation thi , jiski wajah se B language ka development hua.
+
+
+  1. Single Data Type 
+
+  - BCPL used one data type for all values , making it inefficient and error - prone.
+
+
+  - BCPL Sirf ek hi data Type support karta tha jo usually ek integer ya pointer hota tha.
+
+  - Isse alag alag types of data ko handle karna mushkil hota tha.
+
+  - Example k liye , integers ya pointer hota tha aur character's ko differentiate  karna tough hota tha jis se bugs aur errors hone ke chances badh jate the.
+
+
+  2. No structures or Records 
+
+
+  -  BCPL ko no structure or records hai, jiski wajah se C language ka development hua.
+
+
+  - BCPL lacked support for structure making Complex data organization difficult.
+
+
+  - Structures aur Records Composite data types hote hain jo multiple variables ko ek naam ke under group karte hain, jaise student record(name , age , grade).
+
+
+- BCPL mein inka support nahi tha , to related data items ko separately manage karna padta tha.
+
+- Isse Code Complex aur error - prone ho jata tha kyuki sub data alag - alag variable mein rakhna tha.
+
+
+ 3. Poor Portability
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - **B Language**:
-  - **Vikas**: 
+
   
-     - Ken Thompson aur Dennis Ritchie ne late 1960s mein B language develop ki. Ken Thompson ko programming languages mein simplicity aur efficiency bahut pasand thi. B language ko design karte waqt, unhone BCPL ki simplicity aur flexibility ko dhyan mein rakha. B ko bhi system programming ke liye design kiya gaya tha, lekin isme BCPL ki complexity ko streamline kiya gaya. Yahan "streamline" ka matlab hai ki B language ne BCPL ke features ko simplify aur optimize kiya, jisse code likhna aur manage karna aur bhi aasan ho gaya. B ka design minimal tha, matlab isme sirf woh features the jo essential the, jisse code likhna aur manage karna aasan ho jaye. Yeh design early computers ke limited resources ke liye ideal tha, kyunki yeh lightweight aur efficient tha.
+     - Ken Thompson aur Dennis Ritchie ne late 1960s mein B language develop ki. Ken Thompson ko programming languages mein simplicity aur efficiency bahut pasand thi. B language ko design karte waqt, unhone BCPL ki simplicity aur flexibility ko dhyan mein rakha. B ko bhi system programming ke liye design kiya gaya tha, lekin isme BCPL ki complexity ko streamline kiya gaya. 
+     
+     - Yahan "streamline" ka matlab hai ki B language ne BCPL ke features ko simplify aur optimize kiya, jisse code likhna aur manage karna aur bhi aasan ho gaya. B ka design minimal tha, matlab isme sirf woh features the jo essential the, jisse code likhna aur manage karna aasan ho jaye. Yeh design early computers ke limited resources ke liye ideal tha, kyunki yeh lightweight aur efficient tha.
 
 
      - Developed by Ken Thompson and Dennis Ritchie in the late 1960s, B was a simplified version of BCPL, aimed at system programming but with fewer features.
