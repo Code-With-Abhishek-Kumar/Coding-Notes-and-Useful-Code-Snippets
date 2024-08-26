@@ -1,4 +1,4 @@
-// const import mongoose  from "mongoose";
+ import mongoose  from "mongoose";
 
 // what is new keyword
 const userSchema = new mongoose.Schema({
@@ -8,7 +8,13 @@ const userSchema = new mongoose.Schema({
         unique: true,
         lowercase: true,
     },
-    email: String,
+    // email: String,
+     email: {
+        type: String,
+         require: true,
+         unique: true,
+         lowercase: true,
+     },
     passwords:{
         type: String,
         require : [ true , "Password is Required" ],
