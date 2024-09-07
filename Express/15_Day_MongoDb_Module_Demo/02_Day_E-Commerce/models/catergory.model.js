@@ -3,19 +3,19 @@ import { Schema  , model} from "mongoose";
 
 
 const categorySchema = new Schema({
-        name: {
+        cName: {
         type: String,
         required: true,
         unique: true,
         lowercase: true,
       },
-      description: {
+      cDescription: {
         type: String,
         required: true,
         unique: true,
         lowercase: true,
       },
-      photo: {
+      cPhoto: {
         type: String,
        
       },

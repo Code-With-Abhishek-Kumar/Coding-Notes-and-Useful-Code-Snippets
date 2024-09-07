@@ -2,43 +2,50 @@ import mongoose, { Schema, model } from "mongoose";
 
 
 let productSchema = new Schema({
-   name:{
+   Pname:{
     type: String,
     require: true,
     lowercase : true,
    },
 
-   description:{
+   pColor:{
+    type: String,
+    require: true,
+    lowercase : true,
+   },
+
+
+   pDescription:{
      type: String,
      require: true,
      lowercase : true,
    },
 
-   price:{
+   pPrice:{
     type: Number,
     require: true,
     lowercase : true,
    },
 
-   stock:{
+   pStock:{
     type: Number,
     default : 1,
    },
 
-   discount:{
+   pDiscount:{
     type: Number,
      require: true,
      lowercase : true,
    },
 
 
-   category:{
+   pCategory:{
     type: Schema.Types.ObjectId,
     ref: 'category',
     require: true,
 
    },
-   photo:{
+   pImage:{
     type: String,
    
    }

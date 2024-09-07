@@ -3,9 +3,9 @@
 
 
 /* -------------------------------------------------------------------------- */
-/* ------------------- treat all Js code as newer version ------------------- */
 
-"use strict"
+
+"use strict"  // ------------------- treat all Js code as newer version -------------------
 
 /* ------- Number: Represents both integer and floating-point numbers ------- */
 console.log('_____________________Number _______________________________')

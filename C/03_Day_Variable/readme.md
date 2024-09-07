@@ -78,6 +78,36 @@ When programming in C, adhering to proper variable naming conventions is essenti
    - While there is no strict limit on variable name length, most compilers support up to 31 characters for variable names (though modern compilers may support longer names). It's good practice to use meaningful and concise names.
    - **Best Practice:** Keep names reasonably short but descriptive.
 
+
+
+
+
+
+## Naming Convention
+
+1. **camelCase**
+
+- Start with lowercase letter. Capitalize the first letter of each subsequent word.
+
+- Example : `myVariableName`
+
+
+2. **snake_case**
+
+
+- Start with an lowercase letter . Separate words with underscore.
+
+- Example : `my_variable_name`
+
+
+
+Keep a Good and Short Name
+
+- Choose names that are descriptive but not too long. It should make it easy to understand the variable's purpose.
+
+
+- Example : `age` , `first_name` , `isMarried`;
+
 ## Best Practices for Naming Variables
 
 1. **Use Descriptive Names:**
