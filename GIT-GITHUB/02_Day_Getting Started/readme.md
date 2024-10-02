@@ -13,7 +13,7 @@
 
 <!-- /TOC -->
 
-# What is Git?
+# **What is Git?**
 
 - Git is a distributed version control system (DVCS) that allows developers to track changes in their codebase, collaborate with others, and manage different versions of their projects efficiently.
 
@@ -101,9 +101,80 @@ $ git config --global user.email "your email"
 
 ```
 
+- Aapko yeh setting ek baar hi karni hoti hai agar aap --global option use karte hain. Isse Git hamesha wahi information use karega jab bhi aap system pe kaam karenge. 
+
+- Agar aap kisi specific project ke liye alag naam ya email address use karna chahte hain, toh aap project ke folder me jaake bina --global option ke command run kar sakte hain.
+
+
+
 ## Set Your Text  Editor
 
 1. Configure Git to Use VS Code as the Default Editor
 
 
 # Basic Git Commands
+
+
+- When you use Git, you often need to write messages, like commit messages. By default, Git uses a basic text editor, but you can change it to any editor you like, such as Visual Studio Code (VS Code), Sublime Text, Atom, or others. Here's how you can do that:
+
+
+- Jab aap Git use karte hain, to aksar aapko commit messages ya merge messages edit karne ki zaroorat padti hai. Default ke roop mein, Git ek basic text editor use karta hai, lekin aap ise configure karke apni pasand ka text editor use kar sakte hain, jaise Visual Studio Code (VS Code), Sublime Text, Atom, ya koi aur editor.
+
+
+1. Set the Default Editor
+
+
+To choose your preferred text editor, use the git config command. Here’s how to set it up for popular editors:
+
+
+**Visual Studio Code (VS Code):**
+
+1. Open Terminal or Command Prompt:
+
+2. Enter this command:
+
+````bash
+$ git config --global core.editor "code --wait"
+````
+
+-  code is the command for VS Code.
+
+- --wait makes sure VS Code waits until you close it before continuing.
+
+
+**Sublime Text:**
+
+
+
+1. Open Terminal or Command Prompt:
+
+2. Enter this command:
+
+````bash
+$ git config --global core.editor "subl -n -w"
+````
+
+-  `subl` is the command for Sublime Text.
+
+- `-n` opens a new window.
+
+
+- `-w` makes Sublime Text wait until you close it.
+
+
+**Atom:**
+
+
+1. Open Terminal or Command Prompt:
+
+2. Enter this command:
+
+````bash
+$ git config --global core.editor "atom --wait"
+````
+
+-  `atom` is the command for Atom.
+
+-  `--wait` makes Atom wait until you close it.
+
+
