@@ -17,11 +17,119 @@
 
 ##  What is Routing
 
-- Routing in Express.js meance deciding how Our Web Application  should respond When it gets a request at difference website address(URLs) it's like giving direction to the app on What to do When Someone visits a specific page.
+### English:
+Routing in Express refers to how an application’s endpoints (URIs) respond when they receive requests from clients. It allows you to define the paths users can access in your application and determine how your server should respond to different HTTP requests, such as GET, POST, PUT, and DELETE. By setting up routes, you can manage different actions for different requests—like retrieving data, submitting forms, updating information, or deleting resources. Additionally, routing helps organize your code by separating the logic for different parts of your application, making it easier to maintain and understand. Overall, routing is essential for building interactive web applications where users can navigate between different pages and functionalities smoothly.
+
+### Hinglish:
+Express mein routing ka matlab hai ki ek application ke endpoints (URIs) client requests par kaise respond karte hain jab unhe requests milti hain. Yeh aapko yeh define karne ki suvidha deta hai ki users aapke application mein kaunse paths ko access kar sakte hain aur aapka server alag-alag HTTP requests, jaise GET, POST, PUT, aur DELETE par kaise respond karega. Routes set karne se aap alag-alag requests ke liye alag actions manage kar sakte hain—jaise data ko retrieve karna, forms ko submit karna, information update karna, ya resources ko delete karna. Iske alawa, routing aapke code ko organize karne mein madad karta hai, alag-alag parts ke liye logic ko separate karke, jis se aapka code maintain karna aur samajhna aasan ho jata hai. Overall, routing web applications banane ke liye zaroori hai jahan users alag-alag pages aur functionalities ke beech smoothly navigate kar sakte hain.
+
 
 ```javascript
 app.METHOD(PATH, HANDLER)
 ```
+
+### How to Define Routes?
+
+In Express.js, routes are defined using methods associated with HTTP methods. Each method corresponds to a different type of request that can be made by the client.
+
+#### 1. `app.get()`
+
+**Usage:**
+Handles GET requests, which are typically used to retrieve data from the server.
+
+**When to Use:**
+- When you want to fetch resources, such as retrieving a list of users or fetching a specific item from a database.
+
+**Example:**
+```javascript
+app.get('/users', (req, res) => {
+    // Code to fetch and return users
+});
+
+```
+
+#### 2. `app.post()`
+
+**Usage:**
+Handles POST requests, which are generally used to submit data to the server, such as creating a new resource.
+
+**When to Use:**
+- When you want to create a new resource, like adding a new user or submitting a form.
+
+**Example:**
+```javascript
+app.post('/users', (req, res) => {
+    // Code to create a new user
+});
+
+```
+
+
+#### 3. `app.put()`
+
+**Usage:**
+Handles PUT requests, typically used to update existing resources.
+
+**When to Use:**
+- When you want to update a specific resource, such as modifying a user's details.
+
+**Example:**
+```javascript
+app.put('/users/:id', (req, res) => {
+    // Code to update user with the given ID
+});
+
+```
+#### 4. `app.delete()`
+
+**Usage:**
+ Handles DELETE requests, used to delete a specified resource.
+
+**When to Use:**
+- When you want to remove a resource from the server, like deleting a user.
+
+**Example:**
+```javascript
+app.delete('/users/:id', (req, res) => {
+    // Code to delete user with the given ID
+});
+
+```
+
+#### 5. `app.all()`
+
+**Usage:**
+Handles all HTTP methods for a specific route.
+
+**When to Use:**
+- When you want to apply the same logic to different HTTP methods for a particular route, or for middleware functions.
+
+**Example:**
+```javascript
+app.all('/users', (req, res) => {
+    // Code to handle requests regardless of the HTTP method
+});
+```
+
+
+#### 6. `app.use()`
+
+**Usage:**
+Used to define middleware, which are functions that execute during the request-response cycle.
+
+**When to Use:**
+- When you want to run code for every request, such as logging, authentication, or parsing request bodies.
+
+**Example:**
+```javascript
+app.use((req, res, next) => {
+    console.log('Request received:', req.method, req.url);
+    next(); // Pass control to the next middleware
+});
+```
+
+
+
 ### Example of Routingg 
 
 - Sochiya aapko Web application hain aur aap 'Contact Us' Page ko handle karna chahte  ho. Toh aap Express mein routes define kar sakte hain. 
