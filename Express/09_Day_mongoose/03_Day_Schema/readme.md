@@ -23,6 +23,7 @@
 5. [Understanding the _id Property](#understanding-the-_id-property)
 6. [Overwriting the Default _id](#overwriting-the-default-_id)
 7. [Disable _id](#disable-_id)
+8. [Instance Methods](#Instance-Methods)
 
 
 
@@ -428,20 +429,3 @@ const nestedSchema = new Schema({
 
 ```
 
-
-
-## Instance Methods
-
-
-- Mongoose mein instance methods aapko custom functions define karne ki suvidha dete hain jo individual document instances par operate karte hain. Inka istemal karke aap apne code ko aur organized aur maintainable bana sakte hain.
-
-
-- Instance methods in Mongoose allow you to define custom functions that operate on individual document instances. Using these methods helps you keep your code organized and maintainable.
-
-
-### What Do Instance Methods Do?
-
-1. Encapsulate Logic:
-
-
- - Instance methods se aap related functionality ko model ke andar encapsulate kar sakte hain. Encapsulation ka matlab hai kisi cheez ko uske context mein band karna, jisse aapka code modular aur organized rehta hai. Jab aap instance methods ka istemal karte hain, to aap un functions ko directly apne data model ke saath link karte hain, jisse samajhna aasan hota hai ki kaunsa logic kis data se related hai. Is tarah se, aapka code structured hota hai, aur aap easily dekh sakte hain ki kis model ki functionalities kya hain, jo maintenance aur readability dono ko enhance karta hai.
