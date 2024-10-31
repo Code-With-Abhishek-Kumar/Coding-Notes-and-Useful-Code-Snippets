@@ -154,3 +154,50 @@ console.log(result); // Output undefined hoga
 - When we print `result` to the console, the output is `undefined`.
 
 This demonstrates how functions in JavaScript implicitly return `undefined` when no explicit `return` statement is present.
+
+
+
+# Understanding `return` in JavaScript
+
+## Interview Questions About `return` in JavaScript
+
+1. **What does the return statement do in a function?**
+   - **Hinglish:** Return statement function ki execution ko end karta hai aur uss value ko specify karta hai jo caller ko wapas milti hai.
+   - **English:** The return statement ends the execution of a function and specifies the value to be returned to the caller.
+
+2. **What happens if a function does not have a return statement?**
+   - **Hinglish:** Agar function mein return statement nahi hai, toh wo implicitly undefined return karta hai.
+   - **English:** If a function does not have a return statement, it implicitly returns undefined.
+
+3. **Can a function return multiple values?**
+   - **Hinglish:** Function sirf ek value return kar sakta hai, lekin ye value ek array ya object ho sakti hai jo multiple values contain karta hai.
+   - **English:** A function can only return one value, but this value can be an array or an object containing multiple values.
+
+4. **What is an implicit return?**
+   - **Hinglish:** Implicit return tab hota hai jab function explicitly koi value return nahi karta, jiski wajah se function default taur par undefined return karta hai.
+   - **English:** An implicit return occurs when a function does not explicitly return a value, resulting in the function returning undefined by default.
+
+5. **How does the return statement affect the execution of the function?**
+   - **Hinglish:** Return statement turant function ki execution ko rok deta hai, aur iske baad ka koi bhi code execute nahi hota.
+   - **English:** The return statement immediately stops the execution of the function, and any code after it will not be executed.
+
+6. **Can you use return to exit a function early?**
+   - **Hinglish:** Haan, aap return ka use karke function ko early exit kar sakte hain, jo validation ya early termination ke liye istemal hota hai.
+   - **English:** Yes, you can use return to exit a function before reaching the end, often used for validation or early termination.
+
+7. **What is the difference between returning a value and logging it to the console?**
+   - **Hinglish:** Value ko return karna caller ko use ke liye wapas bhejna hota hai, jabki console par log karna sirf display ke liye output hota hai bina function ke return value ko affect kiye.
+   - **English:** Returning a value sends it back to the caller for further use, while logging it to the console only outputs it for display without affecting the function's return value.
+
+8. **What would be the output of this function:**
+   ```javascript
+   function test() {
+       return;
+   }
+   console.log(test());
+```
+
+
+- **Hinglish**:  Output undefined hoga kyunki function mein koi return value nahi hai, jo implicit return ki wajah se undefined hota hai.
+
+- **English**:  The output would be undefined because the function has no return value, leading to an implicit return of undefined.
