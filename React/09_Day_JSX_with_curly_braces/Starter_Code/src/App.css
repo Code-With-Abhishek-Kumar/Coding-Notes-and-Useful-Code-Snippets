@@ -1,0 +1,23 @@
+.card{
+    padding: 35px 35px;
+    width: 25vw;
+    border-radius: 65px;
+    margin-top: 5vh;
+    margin-left: 8vw;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    background-color: #000000;
+    color: white;
+}
+
+
+.card img{
+height: 45%;
+width: 100%;
+}
+
+
+.card h1{
+    font-size: 2rem;
+    }

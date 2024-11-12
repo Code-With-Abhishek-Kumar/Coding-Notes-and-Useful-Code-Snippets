@@ -5,7 +5,7 @@
 
 
 
-- In React, **props** are used to pass data from a **parent component** to a **child component** the data that we pass from the parent to the child is accessible through props, which is an object.
+- In React, **props** are used to pass data or some information from a **parent component** to a **child component** the data that we pass from the parent to the child is accessible through props, which is an object.
 
 
 
