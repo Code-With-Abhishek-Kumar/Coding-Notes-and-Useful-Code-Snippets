@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#Form_Element{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+#file_upload_btn{
+    position: absolute;
+    top: 20%;
+    border-radius: 65px;
+  display: flex;
+    background-color: white;
+    border: 2px solid white;
+    padding: 12px 12px;
+}
+
+#img{
+    width: 40%;
+    position: absolute;
+    bottom: 10%;
+    height: 40%;
+    object-fit: contain;
+}
