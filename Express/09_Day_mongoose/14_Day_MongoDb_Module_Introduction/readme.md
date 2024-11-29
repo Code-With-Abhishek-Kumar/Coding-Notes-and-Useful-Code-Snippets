@@ -1,1 +1,0 @@
-before creating module we need to know what data we need to store 

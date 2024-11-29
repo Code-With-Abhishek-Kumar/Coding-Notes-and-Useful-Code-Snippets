@@ -1,0 +1,404 @@
+ [
+    {
+        "id": 1,
+        "name": "Book 1",
+        "author": "Author 1",
+        "publishDate": "2023-11-28",
+        "copyright": "Copyright © 2023",
+        "image": "https://example.com/images/book_1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Book 2",
+        "author": "Author 2",
+        "publishDate": "2022-11-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Book 3",
+        "author": "Author 3",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Book 4",
+        "author": "Author 4",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Book 5",
+        "author": "Author 5",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Book 6",
+        "author": "Author 6",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Book 7",
+        "author": "Author 7",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Book 8",
+        "author": "Author 8",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Book 9",
+        "author": "Author 9",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Book 10",
+        "author": "Author 10",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Book 11",
+        "author": "Author 11",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Book 12",
+        "author": "Author 12",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_12.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Book 13",
+        "author": "Author 13",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_13.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Book 14",
+        "author": "Author 14",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_14.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Book 15",
+        "author": "Author 15",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_15.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Book 16",
+        "author": "Author 16",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_16.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Book 17",
+        "author": "Author 17",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_17.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Book 18",
+        "author": "Author 18",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_18.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Book 19",
+        "author": "Author 19",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_19.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Book 20",
+        "author": "Author 20",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_20.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Book 21",
+        "author": "Author 21",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_21.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Book 22",
+        "author": "Author 22",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_22.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Book 23",
+        "author": "Author 23",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_23.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Book 24",
+        "author": "Author 24",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_24.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Book 25",
+        "author": "Author 25",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_25.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Book 26",
+        "author": "Author 26",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_26.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Book 27",
+        "author": "Author 27",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_27.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Book 28",
+        "author": "Author 28",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_28.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Book 29",
+        "author": "Author 29",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_29.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Book 30",
+        "author": "Author 30",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_30.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Book 31",
+        "author": "Author 31",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_31.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Book 32",
+        "author": "Author 32",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_32.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Book 33",
+        "author": "Author 33",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_33.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Book 34",
+        "author": "Author 34",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_34.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Book 35",
+        "author": "Author 35",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_35.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Book 36",
+        "author": "Author 36",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_36.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Book 37",
+        "author": "Author 37",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_37.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Book 38",
+        "author": "Author 38",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_38.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Book 39",
+        "author": "Author 39",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_39.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Book 40",
+        "author": "Author 40",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_40.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Book 41",
+        "author": "Author 41",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_41.jpg"
+    },
+    {
+        "id": 42,
+        "name": "Book 42",
+        "author": "Author 42",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_42.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Book 43",
+        "author": "Author 43",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_43.jpg"
+    },
+    {
+        "id": 44,
+        "name": "Book 44",
+        "author": "Author 44",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_44.jpg"
+    },
+    {
+        "id": 45,
+        "name": "Book 45",
+        "author": "Author 45",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_45.jpg"
+    },
+    {
+        "id": 46,
+        "name": "Book 46",
+        "author": "Author 46",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_46.jpg"
+    },
+    {
+        "id": 47,
+        "name": "Book 47",
+        "author": "Author 47",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_47.jpg"
+    },
+    {
+        "id": 48,
+        "name": "Book 48",
+        "author": "Author 48",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_48.jpg"
+    },
+    {
+        "id": 49,
+        "name": "Book 49",
+        "author": "Author 49",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_49.jpg"
+    },
+    {
+        "id": 50,
+        "name": "Book 50",
+        "author": "Author 50",
+        "publishDate": "2022-12-28",
+        "copyright": "Copyright © 2022",
+        "image": "https://example.com/images/book_50.jpg"
+    }
+]
+
+

@@ -1,0 +1,11 @@
+REST API -> Json
+
+GET /api/find/book -> Find All Book
+Get /api/find/book/${id}} -> Find Book on the Basic on ID
+Get /api/delete/book/${id}} -> Delete Book on the Basic on ID
+
+
+
+POST /user -> Create a new user
+
+PACH /
