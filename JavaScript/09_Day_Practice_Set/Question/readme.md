@@ -217,15 +217,6 @@ let a = 5;
 
 
 
-
-
-
-
-
-
-
-
-
 ### Question 16:
 
 - What happens when you try to declare a variable with let or const more than once in the same block?
