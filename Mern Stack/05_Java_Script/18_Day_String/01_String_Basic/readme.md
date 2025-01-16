@@ -4,7 +4,7 @@
 
 - Strings in JavaScript ek sequence hote hain characters ka, jo text data ko represent aur manipulate karne ke liye use kiye jaate hain. JavaScript programming mein strings ke saath kaam karna samajhna bohot zaroori hai. Niche, main JavaScript mein strings ke sabhi important aspects ko detail mein explain karunga.
 
-- Strings in JavaScript are sequences of characters used to represent and manipulate text data. Understanding how to work with strings is fundamental in JavaScript programming. Below, I will cover all essential aspects of strings in JavaScript in detail.
+- A string is a sequence of characters, enclosed in single quotes (' '), double quotes (" "), or backticks ( ).
 
 # Creating strings
 
