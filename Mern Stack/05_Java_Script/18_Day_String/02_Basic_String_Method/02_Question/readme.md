@@ -183,22 +183,15 @@ console.log(str.repeat(3)); // Output: "hello hello hello "
 
 
 
-1. What happens if you use an index greater than the string length with charAt()?
+### 16. Checks if a substring exists within a string.
+
+- The includes() method returns true if a string contains a specified substring.
 
 
-2. Is concat() more efficient than using the + operator for string concatenation?
+```js
+let str = "Hello, world!";
+console.log(str.includes("world")); // true
+
+```
 
 
-3. How would you implement the includes() method manually without using JavaScript's built-in function?
-
-
-4. Can the length property be used with other data types like arrays? If so, how is it different?
-
-
-5. What happens if the substring is not found with indexOf()?
-
-
-6. How would you replace all occurrences of a substring using replace()?
-
-
-7. How does split() behave if the separator is not found in the string?

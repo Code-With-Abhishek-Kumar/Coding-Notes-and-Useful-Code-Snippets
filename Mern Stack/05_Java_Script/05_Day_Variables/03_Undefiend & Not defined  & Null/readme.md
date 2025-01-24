@@ -1,9 +1,3 @@
-
-
-
-
-
-
 # What is "undefined"?
 
 
@@ -63,3 +57,5 @@ anotherFunction(); // ReferenceError: anotherFunction is not defined
 `````
 
 # What is null in JavaScript?
+
+
