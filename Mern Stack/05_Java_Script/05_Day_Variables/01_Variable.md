@@ -25,6 +25,7 @@
 
 ##  Variable and Constant
 
+
 - Har Programing Language main data se deal karna hota hain , wo alag alag prakaar ka data ho sakta hain, ab asia data jisse humein deal karna hain  , wo save to krna padega na , to wo data save krne ke liye hume koi saving space chahiye (RAM) jaha par data save ho jaaye and ye save krne ke liye unhe kuchh name bhi dena padega and esi liye hame variable and constant banaane padte hain taaki data save ho jaae and unka koi name bhi ho ta ki hum use baaad main access kr paye,
 
 
@@ -32,12 +33,13 @@
 
 
 
-
-
 # JavaScript Variables
 
 
-- In JavaScript, a variable is a container used to store data or values that can be used and manipulated throughout your code. 
+- JavaScript is a dynamically-typed language, which means you don’t need to declare a variable’s type explicitly. The type of a variable is determined at runtime based on the value assigned to it.
+
+
+- In JavaScript, Variables is like a Container For Storing Data. We can declare them using var, let, or const. var is function-scoped, while let and const are block-scoped
 
 - In JavaScript, when we want to create a storage space for some information, we use something called a "variable." It's like giving a name to a box where we can store different types of things like numbers, words, or lists.
 
@@ -48,9 +50,33 @@
 <img src="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables/boxes.png">
 
 
+
+## Scope in JavaScript
+
+- Scope refers to the visibility of variables. In JavaScript, variables can be declared in different scopes, such as global scope, function scope, or block scope. The scope of a variable determines where it can be accessed from within your code.
+
+
+
+
+
+
+
+
+
+
 ##  Using `var`:
 
+
+
+In JavaScript, var is a keyword used to declare variables  It works within functions scope or Outside of the function. It is function-scoped, which means that it is only accessible within the function where it is declared. If you declare variables outside of a function using var, they become global variables.
+
+
+
+- Var save it self in window object mening that it save itself in global scope.
+
+
 - var apne aap ko window main  save kr leta hain.
+
 -  `var` keyword ka use hota hai variables ko declare karne ke liye. Jab aap variables ko var keyword se declare karte hai, to Wo function scoped hote hai, jise mean karta hai ki unhe sirf unki declare kiye gaye function mein access kiya jata hai. Agar aap variables ko var keyword se bahar ke bina function mein declare karte hai, to unhe global variables ban jaate hai.
 
 - `Var` statement JavaScript mein ek keyword hai jo variables ko declare karne ke liye istemal hota hai. Ye function-scoped ya globally-scoped variables ko declare kar sakta hai. Function-scoped variables ka matlab hai ki var statement se declare kiya gaya variable usi function ke andar hi accessible hoga, jabki globally-scoped variables ko kisi bhi function ke bahar bhi access kiya ja sakta hai.
@@ -66,12 +92,8 @@
 
 
 
-
 ##  Using `let`:
 
-- JavaScript mein, "let" ek variable banane ka tareeka hai. Socho variable ko ek dibba jahan par tum cheezen rakh sakte ho, jaise numbers ya words, taki tum baad mein unhe istemal kar sake. 
-
-- Jab tum `"let" ` ka istemal karte ho ek variable banane ke liye, toh tum keh rahe ho, "Hey, JavaScript, mujhe ek dibba banana hai aur usme kuch rakhna hai." Ye kaafi faydemand hai kyunki tum kabhi bhi is dibbe mein rakhi cheez ko badal sakte ho. Toh "let" waisa hai jaise khud ko permission dena ek naye dibbe ko banane ka taki tum apne code par kaam kar rahe ho.
 
 - The let keyword was introduced in `ES6 (2015) `and allows you to declare variables that are block-scoped. 
 
@@ -86,6 +108,8 @@
 let variable_name = value;
 
 ```
+
+
 
 ##  Using `const`:
 

@@ -29,7 +29,7 @@ let difference = 10 - 5; // difference = 5
 
 ````
 
-#### 3. Multiplication (\*)
+#### 3. Multiplication (*)
 
 - Multiplies two values.
 

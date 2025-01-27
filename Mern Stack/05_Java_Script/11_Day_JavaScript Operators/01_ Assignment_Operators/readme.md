@@ -282,7 +282,7 @@ console.log(a == b); // This will print: true
 
 
 
-##### 3.  Equality Operator (==)
+##### 3.  Equality Operator (===)
 
 
 - `What it does: ` The strict equality operator checks if two values are exactly the same, without changing their types. They need to be both the same type and value.
