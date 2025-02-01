@@ -1,4 +1,4 @@
-<!-- TOC -->
+
 
 - [Data Type in js](#data-type-in-js)
     - [JavaScript has 8 Datatypes](#javascript-has-8-datatypes)
@@ -6,7 +6,6 @@
     - [Non-Primitive Data Types](#non-primitive-data-types)
     - [typeof in js](#typeof-in-js)
 
-<!-- /TOC -->
 
 
 - JavaScript Data Types - [`float` , `number` , `string` , `boolean` , `null` , `array` , `object` , `Symbol` , `Undefined` ]
@@ -17,22 +16,23 @@
 
 # Data Type in js
 
+- In JavaScript, a data type is  value That variable can hold.
+
+
+
 
 Data types matlab data ka roop hum log code main kai type k data shore kr te hain jaise ki string `Abhisek` , Number `5` , float `12.5` , boolean `true` toh es ko hum log bol te 
 
-- In JavaScript, variables can receive different data types over time. The latest ECMAScript standard defines eight data types Out of which seven data types are Primitive (predefined) and one complex or Non-Primitive
 
 
 
-## JavaScript has 8 Datatypes
-1. String :
-2. Number :  
-2. Bigint
-3. Boolean
-4. Undefined
-5. Null
-6. Symbol
-7. Object
+
+There are two types of data types in JavaScript:
+
+1. Primitive Data Types
+2. Non-Primitive Data Types
+
+
 
 ## Primitive Data Types
 

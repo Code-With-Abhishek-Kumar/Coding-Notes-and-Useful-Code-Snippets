@@ -30,8 +30,9 @@ console.log(doSomething()); // Output: undefined
 
 # Not defined
 
+- In JavaScript Not Defined is a ReferenceError that occurs when you try to use a variable, function, or object property that has not been declared or created in your code. This error is often caused by typographical mistakes or using the wrong variable name.
 
--  In JavaScript, "Not Defined" means that you're trying to use a variable, function, or object property that hasn't been declared or created in your code. This causes an error called ReferenceError. Essentially, JavaScript doesn't know what you're referring to because it doesn't recognize the identifier you're using.
+
 
 
 - "Not defined" ek error hai JavaScript mein jo tab hota hai jab hum kisi variable, function ya object property ko use karne ki koshish karte hain jo ki code mein declare nahi kiya gaya hai. Is situation mein JavaScript ek ReferenceError throw karta hai.
@@ -43,19 +44,19 @@ console.log(doSomething()); // Output: undefined
 
 
 `````javascript
-console.log(foo); // ReferenceError: foo is not defined
-
-
-function myFunction() {
-    // Kuch code
-}
-myFunction(); // Function call is fine
-anotherFunction(); // ReferenceError: anotherFunction is not defined
-
-
+console.log(a); 
+var a = 5; 
+console.log(a); 
+console.log(b);  //  // ReferenceError: b is not defined
 
 `````
 
 # What is null in JavaScript?
+
+
+- In JavaScript, null is a special value that represents an empty or unknown value. It is often used to indicate that a variable or object property has no value or is explicitly empty. Unlike undefined, null is a deliberate assignment to a variable to indicate that it has no value.
+
+
+- JavaScript mein, null ek special value hai jo ek empty ya unknown value ko represent karta hai. Yeh value tab use hoti hai jab kisi variable ya object property ka value nahi hai ya phir woh explicitly empty hai. Undefined ke opposite, null ek deliberate assignment hai jo ek variable ko indicate karta hai ki usme koi value nahi hai.
 
 

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+
+    background: linear-gradient(90deg, #000000 0%, #3d3b3b 100%);
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0 10px 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+
+p {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+
+main {
+    height: 100vh;
+    overflow: hidden;
+
+    width: 100vw;
+    position: relative;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    grid-gap: 20px;
+}
+
+.box {
+    background-color: #fff;
+
+    margin-top: 5vh;
+    margin-top: 15vh;
+    height: 25vh;
+    border-radius: 5px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    display: flex;
+   transform: translateX(0%);
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.title:focus {
+    outline: none;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+}
+
+
+form input,
+textarea {
+    border-bottom: 1px solid #000000;
+
+
+}
+
+
+
+form input,
+textarea {
+    background: none;
+
+
+}
+
+form textarea:focus,
+form input:focus {
+    outline: none;
+}
+
+.description {
+    width: 100%;
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+.add {
+    width: 12vw;
+
+    margin-top: 3vh;
+    height: 6vh;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 1vw;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: orange;
+    font-size: 1vw;
+}
+
+
+.add i {
+    font-size: 1.5vw;
+
+}
+
+
+#Select_Color {
+    border-radius: 12px;
+    border: none;
+    padding: 0px 0px;
+}
+
+#Box_Container {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
