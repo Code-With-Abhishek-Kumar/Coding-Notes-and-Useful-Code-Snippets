@@ -125,9 +125,13 @@ console.log(arr2) // [2, 3, 4]
 
 ## 9. Splice
 
-- The splice() method is used to change the contents of an array by removing or replacing existing elements and/or adding new elements. It modifies the original array and returns an array of the removed elements.
 
-- The splice() method changes the original array and returns the removed elements.
+- The splice() method in JavaScript is used to change the contents of an Original array by removing or replacing existing elements and/or adding new elements in array.
+
+- This Slice method work same as the slice method but the difference is that the slice method does not change the original array but the splice method changes the original array.
+
+
+- The splice() method takes three arguments: the `starting index`, the number of elements to remove element, and the elements to add.
 
 **Syntax**
 
@@ -235,7 +239,9 @@ console.log(index) // 5
 
 ## 12. includes
 
-The includes() method in JavaScript is used to check if an array contains a specified element. It returns true if the element is found in the array, otherwise, it returns false.
+- The includes() method in JavaScript is used to check if an array contains a specified element or not.
+
+- It returns true if the element is found in the array, otherwise, it returns false.
 
 **Syntax**
 
@@ -254,3 +260,94 @@ let result = arr.includes(3)
 
 console.log(result) // true
 ```
+
+## 13. some()
+
+
+- The some() method in JavaScript is used to check if at least one element in an array meets a certain condition. 
+
+
+- It returns true if any element satisfies the condition, and false if none of the elements satisfy it.
+
+*Syntex*
+
+```js
+array.some(callback(element, index, array), thisArg)
+```
+
+- `callback:` The function to test for each element.
+- `element:` The current element being processed in the array.
+- `index:` The index of the current element being processed in the array.
+- `array:` The array some() was called upon.
+- `thisArg:` A value to use as this when executing the callback function.
+
+
+*Example*
+
+```js
+let arr = [1, 2, 3, 4, 5]
+
+let result = arr.some((element) => element > 3)
+
+console.log(result) // true
+```
+
+## 14. every()
+
+- The every() method in JavaScript is used to check if all elements in an array meet a certain condition.
+
+- It returns true if all elements satisfy the condition, and false if any of the elements do not satisfy it.
+
+*Syntex*
+
+```js
+
+array.every(callback(element, index, array), thisArg)
+
+```
+
+- `callback:` The function to test for each element.
+- `element:` The current element being processed in the array.
+- `index:` The index of the current element being processed in the array.
+- `array:` The array every() was called upon.
+- `thisArg:` A value to use as this when executing the callback function.
+
+
+*Example*
+
+```js
+let arr = [1, 2, 3, 4, 5]
+
+let result = arr.every((element) => element > 3)
+
+
+console.log(result) // false
+```
+
+## 15. fill()
+
+- The fill() method in JavaScript is used to fill the elements of an array with a static value.
+
+- It changes the original array and returns the modified array.
+
+
+*Syntex*
+
+```js
+array.fill(value, start, end)
+```
+
+- `value:` The value to fill the array with.
+- `start:` The index at which to start filling the array (optional). The default is 0.
+- `end:` The index at which to stop filling the array (optional). The default is the length of the array.
+
+```js
+let arr = [1, 2, 3, 4, 5]
+
+arr.fill(0, 1, 4)
+
+console.log(arr) // [1, 0, 0, 0, 5]
+```
+
+
+
